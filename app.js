@@ -3,7 +3,7 @@
 //     {id: "heading"},
 //     "Hello World from react!!");
 
-<<<<<<< HEAD
+
 // nested element is created 
 
 const parent = React.createElement(
@@ -28,19 +28,4 @@ const parent = React.createElement(
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(parent)
-=======
-// nested element is created  
-const parent = React.createElement(
-    "div",
-    {id: "parent"},
-    React.createElement(
-    "div",
-    {id: "child"},
-    React.createElement("h1",{},"I am a h1 tag !!")
-    )
-);
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-
-root.render(heading)
->>>>>>> 50cf58322620f6f883b2ea3cfaa1daf7c220987f
